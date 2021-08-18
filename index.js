@@ -29,7 +29,7 @@ btns1.forEach(function(btn){
         }
         
         if(count1==11){
-            alert("PLAYER1 WINS");
+            alert(name1+" WINS");
             count1=0;
         }
         count_value1.textContent=count1;
@@ -59,12 +59,10 @@ btns2.forEach(function(btn){
         }
         
         if(count2==11){
-            alert("PLAYER2 WINS");
+            alert(name2+" WINS");
             count2=0;
         }
         count_value2.textContent=count2;
     });
 });
-
-
 
