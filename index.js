@@ -20,6 +20,10 @@ btns1.forEach(function(btn){
             count_value1.style.color="red";
         }
         
+        if(count1==11){
+            alert("PLAYER1 WINS");
+            count1=0;
+        }
         count_value1.textContent=count1;
     });
 });
@@ -46,6 +50,10 @@ btns2.forEach(function(btn){
             count_value2.style.color="red";
         }
         
+        if(count2==11){
+            alert("PLAYER2 WINS");
+            count2=0;
+        }
         count_value2.textContent=count2;
     });
 });
