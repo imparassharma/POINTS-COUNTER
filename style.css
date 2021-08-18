@@ -7,7 +7,7 @@ body{
     background: url(images/court.jpg) no-repeat center center fixed;
     background-size: contain;
     background-color: rgb(14, 104, 55); 
-    border: solid 10px rgb(8, 155, 33);
+    border: solid 10px black;
 
 }
 
