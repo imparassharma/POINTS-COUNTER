@@ -1,0 +1,193 @@
+*{
+    margin-top: 0px;
+}
+
+body{
+    margin: 0;
+    background: url(images/court.jpg) no-repeat center center fixed;
+    background-size: contain;
+    background-color: rgb(14, 104, 55);
+    overflow: hidden; 
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1{
+    margin-top: -50px;
+    color: white;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.count{
+    font-size: 48px;
+    width: 50px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    border: solid black;
+}
+
+.name{
+    width: 100px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    height: 25px;
+    border: solid black;
+    color: white;
+    text-align: center;
+}
+
+.container1{
+    margin-top: -10px;
+}
+
+.name2{
+    margin-bottom: -105px;
+}
+
+.container2{
+    margin-top: 110px;
+}
+
+.counter1{
+    margin: 0px 20px 200px 20px;
+}
+
+.counter2{
+    margin: 110px 20px 0px 20px;
+}
+
+.player{
+    width: 30%;
+    height: 15vh;
+    border-radius: 100%;
+    border: solid 3px black;
+    display: flex;
+    flex-direction: row;
+}
+
+.player1{
+    background-image: url(images/player1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 180px;
+}
+
+.player2{
+    background-image: url(images/player2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 110px;
+}
+
+.top-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.top-buttons button{
+    width: 50px;
+    margin-bottom: 190px;
+}
+
+.bottom-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-buttons button{
+    width: 50px;
+    margin-top: 110px;
+}
+
+.main button{
+    background-color: rgb(240, 0, 0);
+    color: rgb(255, 255, 255);
+    border: solid rgb(10, 10, 10);
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+@media screen and (min-width:1500px) {
+    
+    body{
+        background-image: url(images/court.jpg);
+        background-size: 1080px 900px;
+        background-position: center;
+        margin: 2vh 1vw;
+    }
+
+    .main{
+        margin-bottom: 2vh;
+    }
+
+    .section{
+        width: 100%;
+        justify-content: left;
+    }
+
+    .top-section{
+        height: 50%;
+    }
+
+    .bottom-section{
+        margin-bottom: 100px;
+        height: 50%;
+    }
+
+    .main h1{
+        margin-top: 0px;
+    }
+
+    .player{
+        width: 15%;
+        height: 25vh;
+        
+    }
+
+    .player2{
+        margin-top: 0;
+    }
+
+
+    .count{
+       width: 80px;
+       height: 70px;
+       font-size: 64px;
+    }
+
+    .container1{
+        margin-left: 950px;
+    }
+
+    .container2{
+        margin-left: 950px;
+        margin-top: 0;
+    }
+
+    .name{
+        width: 195px;
+        height: 50px;
+        border: solid rgb(0, 0, 0) 5px;
+        font-size: 42px;
+    }
+
+    .main button{
+        width: 100px;
+        height: 80px;
+    }
+}
